@@ -27,18 +27,18 @@
 							<a-image :preview="false" :width="100" :height="120" :src="$domain + '/' + item.avatar" />
 							<div class="infos">
 								<div class="name"><strong>{{ item.name }}</strong></div>
-								<div class="city"><small>{{ item.city }}</small></div>
+								<!-- <div class="city"><small>{{ item.city }}</small></div>
 								<div class="info">
 									<span>{{ lang.PL.job }}:{{ item.job }}</span>
 									<span>{{ lang.PL.height }}:{{ item.height }}</span>
 									<span>{{ lang.PL.weight }}:{{ item.weight }}kg</span>
 									<span>{{ lang.PL.xw }}:{{ item.xw }}</span>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="right">
 							<div class="reseve">
-								<div class="yy" @click.stop="yy">{{ lang.PL.button }}</div>
+								<div class="yy" @click.stop="yy(item)">{{ lang.PL.button }}</div>
 							</div>
 						</div>
 					</div>
@@ -82,7 +82,6 @@ const langs = {
 	vi
 }
 let lang = langs[localStorage.getItem('language')]
-console.log(lang)
 const router = useRouter();
 const user = JSON.parse(localStorage.getItem('user'))
 if (!user) {
@@ -133,14 +132,59 @@ const party = (index) => {
 		}
 	})
 }
-let PLtagsColor = ['#f50', '#2db7f5', '#87d068', '#108ee9']
-//预约
-const yy = () => {
-	ElNotification({
-		title: lang.message.title,
-		message: lang.message.msg,
-		type: 'warning',
+//配对
+const yy = (item) => {
+	console.log(lang)
+	let pairStatus = 0
+	PLApi.get_pair({
+		account: store.user.account
+	}).then(res => {
+		if (res.code == 0) {
+			console.log(res)
+			let rows = res.rows
+			//判断是否已提交配对el-table__row
+			if (rows.some(obj => obj && obj.status == 1)) {
+				Modal.warning({
+					title: lang.message.title2,
+					content: lang.message.msg3,
+					okText: lang.mine.model.message[1].okText,
+				});
+				return
+			} else if (rows.some(obj => obj && obj.status == 0)) {
+				Modal.warning({
+					title: lang.mine.model.message[1].title,
+					content: lang.mine.model.message[1].content,
+					okText: lang.mine.model.message[1].okText,
+				});
+				return
+			}
+			PLApi.add_pair({
+				userId:store.user.id,
+				account: store.user.account,
+				avatar: store.user.avatar,
+				pairId: item.id,
+				pairAccount: item.account,
+				pairAvatar: item.avatar,
+				vipCode: store.user.vipCode,
+				status: 0
+			}).then(res => {
+				if (res.code == 0) {
+					message.success(lang.message.msg2);
+				}
+			})
+			PLApi.pair({
+				pairAccount: item.account,
+				pairAvatar: item.avatar,
+				pairId: item.pairId,
+				status: 0
+			}).then(res => {
+				if (res.code == 0) {
+					console.log('success')
+				}
+			})
+		}
 	})
+	console.log(item)
 }
 const detail = (item) => {
 	router.push({
@@ -158,12 +202,12 @@ localStorage.removeItem('PLdata')
 let PLdata = ref([])
 let hasMore0 = ref(false)
 const searchRet = () => {
-	if(!searchValue.value) {
+	if (!searchValue.value) {
 		getPLdata()
 		return
 	}
 	PLApi.get_pair_list({
-		account:searchValue.value,
+		account: searchValue.value,
 		gender: '女',
 	}).then(res => {
 		console.log(res)
@@ -302,7 +346,7 @@ onMounted(async () => {
 	border: 1px solid #ccc;
 	border-radius: 30px;
 	padding: 10px 5px;
-	background: linear-gradient(20deg,#FF6873,#F9546D);
+	background: linear-gradient(20deg, #FF6873, #F9546D);
 	color: white;
 	font-weight: bold;
 	font-size: 16px;
@@ -361,7 +405,7 @@ onMounted(async () => {
 .modelItem .left .infos {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	align-items: flex-start;
 	margin-left: 7px;
 	height: 100%;
@@ -436,6 +480,7 @@ onMounted(async () => {
 	color: black;
 	background-color: #161A1D;
 }
+
 .ant-input-group-addon {
 	background-color: aliceblue !important;
 }

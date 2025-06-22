@@ -12,4 +12,13 @@ export default {
 	get_pair: function (data) {
 		return $http.get('api/get/pair', data)
 	},
+	add_pair:(data)=> {
+		return $http.get('api/add/pair', data)
+	},
+	set_pair:(data)=> {
+		return $http.get('api/set/pair', data)
+	},
+	pair:(data)=> {
+		return $http.get('api/pair', data)
+	}
 }

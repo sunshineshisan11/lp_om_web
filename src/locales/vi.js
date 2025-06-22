@@ -23,7 +23,7 @@ export default {
 			input: 'Nhập tên',
 			buttons: ['Hủy bỏ', 'Xác nhận']
 		},
-		upload: ['Vui lòng tải lên biên lai chuyển khoản của thủ tục đăng ký thành viên đầu tiên mà bạn đã thực hiện.', 'Vui lòng tải lên biên lai chuyển khoản của thủ tục đăng ký thành viên thứ hai mà bạn đã thực hiện.','Vui lòng tải lên biên lai chuyển khoản của thủ tục đăng ký thành viên thứ ba mà bạn đã thực hiện.'],
+		upload: ['Vui lòng tải lên biên lai chuyển khoản của thủ tục đăng ký thành viên đầu tiên mà bạn đã thực hiện.', 'Vui lòng tải lên biên lai chuyển khoản của thủ tục đăng ký thành viên thứ hai mà bạn đã thực hiện.', 'Vui lòng tải lên biên lai chuyển khoản của thủ tục đăng ký thành viên thứ ba mà bạn đã thực hiện.'],
 		message: ['Vui lòng nhập mật khẩu', 'Vui lòng nhập mật khẩu mới', 'Mật khẩu không thể ít hơn sáu chữ số.', 'Nhập lại mật khẩu mới không khớp nhau.', 'Sửa đổi thành công.', 'Mật khẩu không chính xác.'],
 		model: {
 			titles: ['Điểm', 'Điểm còn lại', 'Lịch sử rút tiền', 'Mật khẩu cũ', 'Mật khẩu mới', 'Xác nhận mật khẩu'],
@@ -68,18 +68,19 @@ export default {
 		xw: 'Vòng thắt ngực',
 		job: 'Nghề nghiệp',
 		city: 'Thành phố',
-		button: 'Tôi muốn đặt lịch',
+		button: 'Tôi muốn tìm cặp',
 		tabs: ['Khu dành cho nam', 'Khu dành cho nữ'],
-		party: ['Banh tiệc bể bơi', 'Banh tiệc du thuyền', 'Banh tiệc biệt thự', 'Banh tiệc cá nhân']
+		party: ['Banh tiệc bể bơi', 'Banh tiệc du thuyền', 'Banh tiệc biệt thự', 'Du Lịch Theo Yêu Cầu']
 	},
-
-
 	tabbar: {
 		buttons: ['Trang chủ', 'Hẹn hò riêng tư', 'Bình chọn', 'Của tôi'],
 		service: 'Dịch vụ khách hàng'
 	},
 	message: {
 		title: "Thành viên chưa được kích hoạt. ",
-		msg: 'Vui lòng liên hệ CSKH để kích hoạt.'
+		msg: 'Vui lòng liên hệ CSKH để kích hoạt.',
+		"title2": "Yêu cầu",
+		"msg2": "Yêu cầu đã được gửi. Đang đợi bên相与 đồng ý",
+		"msg3": "Bạn đã có một cặp rồi"
 	}
 }

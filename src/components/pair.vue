@@ -145,7 +145,7 @@ const getUser = () => {
 //查找配对女生
 const pairUser = ref({})
 PLApi.get_pair_list({
-	pairId: store.user.account,
+	account: store.user.pairAccount,
 	gender: '女',
 }).then(res => {
 	console.log(res)

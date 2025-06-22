@@ -72,6 +72,9 @@ export default {
 	},
 	message: {
 		title: "會員未激活",
-		msg: '請聯繫客服激活'
+		msg: '請聯繫客服激活',
+		title2:'提示',
+		msg2:'请求已发出，等待对方同意',
+		"msg3": "您已经有一个配对了"
 	}
 }

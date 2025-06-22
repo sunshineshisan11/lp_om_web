@@ -25,8 +25,11 @@
 							{{ userInfo.account }}
 						</div>
 						<!--   -->
-						<div class="vipTitle flex height100" @click="pair"
+						<div class="vipTitle flex height100"
 							style="flex-direction: column;justify-content: space-between;">
+							<img v-if="userInfo.pairAvatar"
+								:src="user.pairAvatar ? user.pairAvatar : $domain + '/' + userInfo.pairAvatar" class="idCard"
+								alt="Avatar" />
 							<div class="top">
 								<div class="vipStatus">
 									<div class="vip">
@@ -72,6 +75,7 @@
 					<div v-show="openFlag == false" class="tc">
 						<div class="tcBtn" @click="visible = true">{{ lang.mine.buttons[0] }}</div>
 					</div>
+
 					<el-dialog v-model="visible" :show-close="false"
 						:style="{ 'background-image': 'url(' + $domain + '/mine/vip2.jpg)' }"
 						style="background-size: cover; margin-top: 40px;margin-left: auto; display: flex;flex-direction: column;justify-content: space-around;">
@@ -84,6 +88,13 @@
 										<img v-if="user.avatar" :src="user.avatar" class="avatarEdit" alt="Avatar" />
 										<el-avatar v-else :size="100"
 											:src="userInfo.avatar ? $domain + '/' + userInfo.avatar : 'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'" />
+									</el-upload>
+									<el-upload class="avatar-uploader" action="https://www.findyourflame.vip:168/upload"
+										:show-file-list="false" :before-upload="beforeUpload2"
+										:on-success="handleSuccess2" :on-error="handleError2">
+										<img v-if="user.idCard" :src="user.idCard" class="avatarEdit" alt="Avatar" />
+										<el-avatar v-else :size="100"
+											:src="userInfo.idCard ? $domain + '/' + userInfo.idCard : 'https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png'" />
 									</el-upload>
 								</div>
 							</div>
@@ -145,14 +156,12 @@
 									<label for="">{{ item.date }}</label>
 									<div class="money">
 										<strong>
-											<!-- 状态0审核中 1审核通过 2拒绝-->
 											<template v-if="item.status == 0">
 												<el-icon>
 													<Clock />
 												</el-icon>
 											</template>
 											<template v-if="item.status == 1">
-												<!-- 账单类型0充值 1提现 -->
 												<template v-if="item.type == 0">
 													+
 												</template>
@@ -334,11 +343,6 @@ const zh_change = (arg) => {
 	}
 	console.log(store.lang)
 }
-const pair = () => {
-	router.push({
-		path: '/pair'
-	})
-}
 const updatePWDok = () => {
 	console.log(oldPassword.value)
 	if (oldPassword.value == '') {
@@ -497,12 +501,14 @@ const orderOpen = (type) => {
 	orderType = type
 }
 const orderOk = () => {
+	console.log(user.makeMoney, store.user.money)
+	console.log(user.makeMoney > Number(store.user.money))
 	if (user.makeMoney == '') {
 		message.error(lang.value.mine.model.message[0])
 		return
 	}
 	if (orderType == 1) {
-		if (user.makeMoney > store.user.money) {
+		if (user.makeMoney > Number(store.user.money)) {
 			message.error(lang.value.gift.message[2])
 			return
 		}
@@ -542,13 +548,14 @@ const orderOk = () => {
 	if (store.user.dataError != 0) {
 		return
 	}
+
 	//提现时金额不足提示
-	if (orderType == 1) {
-		if (user.makeMoney > store.user.money) {
-			message.error(lang.value.gift.message[2])
-			return
-		}
-	}
+	// if (orderType == 1) {
+	// 	if (user.makeMoney > Number(store.user.money)) {
+	// 		message.error(lang.value.gift.message[2])
+	// 		return
+	// 	}
+	// }
 	// if(store.user.vipGrade == 0||store.user.vipGrade == '0') {
 	// 	location.href = 'https://line.me/ti/p/~'+store.user.lineCode
 	// 	return
@@ -680,9 +687,63 @@ const handleError = () => {
 	messageEL.value = lang.value.mine.model.message[7]; //'头像上传失败，请稍后重试！'
 	messageType.value = 'error';
 };
+// 存储头像图片的 URL
+const imageUrl2 = ref('');
+// // 存储消息类型
+const messageType2 = ref('');
+// // 上传前的处理函数
+const beforeUpload2 = async (file) => {
+	const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';
+	if (!isJpgOrPng) {
+		messageEL.value = lang.value.mine.model.message[5]; //'只能上传 JPG/PNG 格式的图片！'
+		messageType.value = 'error';
+		return false;
+	}
+	const isLt2M = file.size / 1024 / 1024 < 2;
+	if (!isLt2M) {
+		messageEL.value = lang.value.mine.model.message[6]; //'图片大小不能超过 2MB！'
+		messageType.value = 'error';
+		return false;
+	}
+	const reader = new FileReader();
+	reader.onload = (e) => {
+		imageUrl2.value = e.target.result;
+		user.idCard = imageUrl2.value
+	};
+	reader.readAsDataURL(file);
+	return true;
+};
+// 上传成功的处理函数
+const handleSuccess2 = (response) => {
+	//记录图片名
+	console.log(response.file)
+	if (response.code == 0) {
+		mineApi.set_idCard({
+			idCard: response.file,
+			account: JSON.parse(localStorage.getItem('user')).account
+		}).then(res => {
+			console.log(res)
+		})
+	}
+	console.log(response)
+};
+// 上传失败的处理函数
+const handleError2 = () => {
+	messageEL.value = lang.value.mine.model.message[7]; //'头像上传失败，请稍后重试！'
+	messageType.value = 'error';
+};
 </script>
 
 <style scoped>
+.idCard {
+	display: flex;
+	justify-content: center;
+}
+
+.name {
+	margin: 10px 0;
+}
+
 .my-header {
 	border-radius: 5px;
 }
@@ -922,7 +983,7 @@ const handleError = () => {
 }
 
 .vipCard .center {
-	transform: translateX(20px);
+	/* transform: translateX(20px); */
 }
 
 .vipCard .vipCode {
@@ -930,6 +991,16 @@ const handleError = () => {
 	position: absolute;
 	right: 5px;
 	bottom: 5px;
+}
+
+.vipCard .idCard {
+	object-fit: cover;
+	max-width: 66px;
+	max-height: 80px;
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	top: 3px;
 }
 
 .vipCard .avatar {
@@ -948,6 +1019,7 @@ const handleError = () => {
 
 .vipTitle {
 	flex: 1;
+	position: relative;
 }
 
 .vipTitle .top {
@@ -1066,7 +1138,7 @@ const handleError = () => {
 	position: relative;
 	z-index: 2;
 	height: 100vh;
-	
+
 	box-sizing: border-box;
 }
 

@@ -3,6 +3,9 @@ export default {
 	set_user: function(data) {
 		return $http.get('api/get/set_user',data)
 	},
+	set_idCard: function(data) {
+		return $http.get('api/set/idCard',data)
+	},
 	get_user: function(data) {
 		return $http.get('api/get/get_user',data)
 	},

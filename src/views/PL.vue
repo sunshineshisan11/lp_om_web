@@ -39,11 +39,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="right">
+								<!-- <div class="right">
 									<div class="reseve">
 										<div class="yy" @click.stop="yy">{{ lang.PL.button }}</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</li>
 					</ul>
@@ -202,7 +202,7 @@ const party = (index) => {
 }
 let PLtagsColor = ['#f50', '#2db7f5', '#87d068', '#108ee9']
 //预约
-const yy = () => {
+const yy = (item) => {
 	ElNotification({
 		title: lang.message.title,
 		message: lang.message.msg,
@@ -489,7 +489,7 @@ onMounted(async () => {
 	border-radius: 8px;
 	justify-content: space-between;
 	padding: 0 10px;
-	/* border: 2px solid #aa55ff; */
+	border: 2px solid #fff;
 	box-sizing: border-box;
 }
 

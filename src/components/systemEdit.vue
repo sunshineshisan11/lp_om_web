@@ -4,143 +4,264 @@
 		    <template #content>
 		      <span class="text-large font-600 mr-3"> Title </span>
 		    </template>
-		  </el-page-header> -->
+</el-page-header> -->
 		<el-icon class="back" size="40" @click="router.back()">
 			<ArrowLeftBold />
 		</el-icon>
 		<div v-if="type == 1">
 			<article v-if="langStr == 'zh'">
-				在Soul Mate，我們非常嚴肅地保護會員的隱私。我們始終一貫地管理網站上所有的個人主頁、照片和所使用的語言，並儘一切所能保護你的隱私和安全。然而，我們要提醒你：網上安全也是你的責任，這非常重要。所以要小心，三思而後行。保護自己的安全！
-				不要向任何第三方- 即使是您的朋友- 分享或透露您的密碼。如果您丟失或洩露您的密碼，可能會危及您的私人數據。如果您的個人檔案被黑客入侵，請您通過我們的反饋頁面向我們團隊進行舉報。
-				當您對新認識的人還不太了解時，請您不要輕易洩露個人信息。這包括透露您的電子郵件地址，即時通信的聯繫方式，全名及URL。請您千萬不要告訴他人您的財務信息，如信用卡資料等。
-				有些騙子會假冒我們公司或其他公司的代表要求您為非Soul Mate網站直接提供的所謂獎品的快遞或服務付款，因此請您一定要特別警惕。尤其請您要注意的是，當有人說他們有困難而向您要錢時- 這種情況通常是騙局。
-				如果您遇到任何不恰當的行為，點擊舉報違規行為的鏈接後，我們團隊會馬上收到該報告。如果您與某位會員交流時覺得不自在，您也能找到阻止該會員的選項。不要忍受任何無禮或騷擾行為-
-				阻止該會員或向我們的客戶服務團隊舉報。我們會盡快處理這些事宜，我們擁有一個完善的監管系統對這方面進行監控和質量控制。
-				關於線下見面的提示
-				當您與剛認識的新會員交談時，問他們要最近拍的照片- 最好是在過去4個星期內拍的
-				千萬不要迫使自己去與對方見面；只有當您準備好的時候才可以去見面。
-				把您打算去的地方告訴您的朋友，並且讓他們給您打電話或發短信以確認您的安全。請您確保帶上電量充滿並且餘額足夠的手機，並且及時把見面的情況和何時安全到家告知你的朋友。
-				請您自己安排前往和離開見面地點的交通工具- 不要在對方或自己的家裡見面。最好永遠不要洩露您的住址，除非您與對方已經非常熟悉。
-				請您確保將第一次見面安排在白天以及公共場所，並且在您清醒時！請您千萬不要在見面時喝太多酒，並且時時將自己的隨身物品和飲品放在自己的眼前。
+				見面安全規則<br />
+				為保障雙方人身財產安全，降低陌生人見面潛在風險，同時確保雙方遵守約定、履行責任，特制定本安全須知及擔保金管理規則。雙方在見面之前需仔細閱讀並同意本規則，繳納擔保金後方可進行見面活動。
+				<br /><br />
+				（一）資訊溝通
+				<br />
+				在雙方自願見面的情況下，需明確見面目的、時間、地點。見面時間應選擇在白天正常工作時間，見面地點必須為公共場所，如商場、咖啡館、公園等人員密集、監控設備齊全的區域，禁止選擇私人住所、偏僻角落等封閉或危險場所。
+				透過文字形式詳細溝通見面具體安排，並保留聊天記錄，作為後續出現糾紛時的證據。
+				<br /><br />
+
+				（二）擔保金繳納
+				<br />
+				雙方需在約定見面時間前，各自向指定第三方擔保帳戶繳納 2000 美金 作為擔保金。該擔保金將由專業的第三方擔保機構進行管理，確保資金安全與公正處理。
+				繳納擔保金後，需及時向對方發送繳納成功的憑證（如轉帳截圖、交易記錄等），以便雙方確認。
+				<br /><br />
+
+				（三）見面過程安全規範
+				<br />
+				雙方見面時，需保持適當的社交距離，避免任何不必要的身體接觸。
+				不隨意接受對方提供的飲料、食物等，防止被下藥或其他侵害。若確實需要飲食，建議選擇自行購買或在正規商家處共同消費。
+				時刻留意周圍環境和人員情況，若發現任何異常或感到不安，應立即終止見面，並採取相應的安全措施（如向周圍人員求助、報警等）。
+				若在見
+
 			</article>
 			<article v-if="langStr == 'jp'">
-				Soul Mate
-				では、会員のプライバシーを非常に厳格に保護しています。当社はウェブサイト上のすべての個人ホームページ、写真、および使用言語を一貫して管理し、あなたのプライバシーとセキュリティを保護するためにできる限りのことを行っています。ただし、オンラインセキュリティもあなたの責任であることをお知らせします。これは非常に重要です。ですから、慎重に、よく考えてから行動してください。自身のセキュリティを守ってください！
-				どんな第三者にも、たとえあなたの友人であっても、パスワードを共有または明かさないでください。パスワードを失ったり漏洩したりすると、あなたのプライベートデータが危険にさらされる可能性があります。あなたの個人プロフィールがハッキングされた場合は、当社のフィードバックページを通じて当社チームに通報してください。
-				新しく知り合った人にまだ詳しく知らないうちは、個人情報を軽々しく漏らさないでください。これには、あなたのメールアドレス、即時メッセージングの連絡先情報、本名、および URL
-				の開示が含まれます。決して他人にあなたの財務情報、たとえばクレジットカード情報などを告げないでください。
-				一部の詐欺師は、当社や他の会社の代表者になりすまして、Soul Mate
-				ウェブサイトが直接提供していないとされる所謂賞品の配送料やサービス料を支払うよう要求することがあります。ですから、特に注意してください。特に、誰かが困っていると言ってあなたに金を要求する場合には注意してください。このようなケースは通常、詐欺です。
-				不適切な行為に遭遇した場合は、違反行為を通報するリンクをクリックすると、当社チームにすぐに報告が届きます。ある会員とのやり取りで不快感を覚えた場合も、その会員をブロックするオプションを見つけることができます。無礼な行為や迷惑行為に耐えないでください。その会員をブロックするか、当社のカスタマーサービスチームに通報してください。当社はできるだけ早くこれらの事案を処理します。当社には、これらの点について監視と品質管理を行うための整備された監督システムがあります。
-				オフラインでの面会に関するヒント
-				新しく知り合った会員と話すときは、彼らに最近撮った写真を求めてください。できれば過去 4 週間以内に撮ったものが望ましいです。
-				無理に相手と面会することはしないでください。あなたが十分に準備ができているときにのみ面会してください。
-				あなたが行く予定の場所を友人に伝え、彼らにあなたのセキュリティを確認するために電話をかけてもらうか、メッセージを送ってもらってください。充電が完了し、十分な残高がある携帯電話を持っていくことを確認し、面会の状況といつ無事に家に戻ったかを友人に知らせてください。
-				面会場所への往復の交通手段を自分で手配してください。相手や自分の家で面会しないでください。おそらく、あなたが相手と非常に親しくなるまでは、住所を明かさないことが望ましいです。
-				最初の面会は日中で、公共の場所で行うことを確認し、あなたが気がはっきりしているときに行ってください。面会時にたくさん飲むことは絶対にしないでください。また、常に自分の持ち物と飲み物を目の届くところに置いてください。
+				面会安全規則<br /><br />
+				双方の人身と財産の安全を保障し、知らない人同士の面会に潜在するリスクを軽減し、かつ双方が約束を遵守し責任を果たすことを確保するため、本安全注意事項及び保証金管理規則を制定します。双方は面会する前にこの規則をよく読み、同意し、保証金を納付した後で面会活動を行うことができます。
+				<br />
+				<br />
+				（一）情報のやり取り<br />
+
+				双方が自発的に面会する場合、面会の目的、時間、場所を明確にしなければなりません。面会時間は昼間の通常営業時間に設定し、面会場所は必ず商業施設、カフェ、公園などの人通りの多い監視設備の整った公共場所とし、個人住宅、人通りの少ない場所などの密閉空間または危険な場所を選択してはなりません。
+				面会の具体的な手配をテキスト形式で詳細にやり取りし、チャット記録を残し、後続のトラブル発生時の証拠とします。
+				<br />
+				<br />
+				（二）保証金の納付<br />
+				双方は約定した面会時間の前に、それぞれ指定の第三者保証口座に 2000 米ドルを保証金として納付する必要があります。この保証金は専門的な第三者保証機関が管理し、資金の安全と公正な処理を確保します。
+				保証金を納付した後、直ちに相手に納付成功の証明（振り込みスクリーンショット、取引記録など）を送付し、双方が確認できるようにします。
+				<br />
+				<br />
+				（三）面会中の安全規範
+				<br />
+				双方が面会する際、適切な社交距離を保ち、不要な身体接触を避ける必要があります。
+				相手が提供する飲み物、食べ物などを勝手に受け取らないでください。薬物を混入されるなどの侵害を防ぐため、飲食が必要な場合は、自分で購入するか、正規の店で一緒に消費することをおすすめします。
+				常に周囲の環境と人々の状況に注意し、異常が発見されたり不安を感じたりした場合は、直ちに面会を終了し、適切な安全措置（周りの人に助けを求めたり、警察に連絡したりなど）を講じます。
+				面会中にトラブルや衝突が発生した場合、双方は冷静を保ち、友好的に協議して問題を解決する必要があります。協議で解決できない場合は、直ちに第三者保証機関の Soul Mate Platform
+				に介入調停を依頼し、現場の証拠（写真、ビデオ、証人の証言など）を残します。
+				人身脅迫、暴力侵害などの緊急事態に遭遇した場合は、直ちに現地の警察署に電話（000）で助けを求め、第三者保証機関の Soul Mate Platform に連絡してください。
+				<br /><br />
+				（四）面会終了及び保証金の返還
+				<br />
+				面会終了後、双方は 24 時間以内に指定のプラットフォームを通じて今回の面会に問題がないことを確認する必要があります。第三者保証機関は双方の確認情報を受け取った後、3
+				営業日以内に双方が納付した保証金を全額元の支払い口座に返還します。
+				<br />
+				<br />
+				（五）本安全注意事項及び保証金管理規則は、双方が同意して保証金を納付した日から発効し、双方に法律的拘束力を有します。
 			</article>
 			<article v-if="langStr == 'ko'">
-				Soul Mate에서는 회원님의 개인 정보 보호를 매우 엄격하게 진행합니다. 저희는 웹 사이트의 모든 개인 홈페이지, 사진 및 사용 언어를 일관되게 관리하며 회원님의 개인 정보와 안전을
-				보호하기 위해 가능한 모든 것을 노력합니다. 그러나 온라인 안전도 회원님의 책임임을 알려드립니다. 이는 매우 중요합니다. 그러니 조심하고, 삼고 사고한 후 행동하십시오. 스스로의 안전을
-				지켜주세요!
-				어떤 제 3자에게도, 심지어 귀하의 친구에게도 비밀번호를 공유하거나 공개하지 마십시오. 비밀번호를 분실하거나 유출하면 귀하의 개인 데이터가 위험에 빠질 수 있습니다. 귀하의 개인 프로필이
-				해킹당한 경우 our의 피드백 페이지를 통해 our 팀에 신고해 주십시오.
-				새로운 친구를 아직 잘 모를 때 개인 정보를 가볍게 유출하지 마십시오. 여기에 포함되는 것은 귀하의 이메일 주소, 즉시 통신 연락처 정보, 성명 및 URL입니다. 절대 다른 사람에게
-				귀하의 재정 정보, 예를 들어 신용 카드 정보 등을 알리지 마십시오.
-				어떤 사기꾼들은 저희 회사나 다른 회사의 대표자 이름을 빌려 Soul Mate 웹 사이트에서 직접 제공하지 않는 소위 상품의 배송료나 서비스 비용을 지불하라고 요청할 수 있습니다.
-				그러니 특히 주의하십시오. 특히 어떤 사람이 어려움에 처해 있다고 말하고 돈을 요청할 때는 주의하십시오. 이러한 경우 대부분은 사기입니다.
-				부적절한 행위를 만난 경우 규제 위반 행위 신고 링크를 클릭하면 our 팀이 바로 보고를 받게 됩니다. 어떤 회원과의 교류에서 불쾌감을 느끼는 경우에도 해당 회원을 차단하는 옵션을 찾을
-				수 있습니다. 무례하거나 괴롭히는 행위를 참지 마십시오. 해당 회원을 차단하거나 our 고객 서비스 팀에 신고하십시오. 저희는 가능한 빨리 이러한 문제를 처리할 것입니다. 저희는 이에
-				대한 감독과 품질 관리 시스템이 잘 갖추어져 있습니다.
-				오프라인 만남에 대한 팁
-				새로운 회원과 이야기를 나눌 때 최근에 찍은 사진을 요청하십시오. 가능하면 지난 4 주 이내에 찍은 것이 좋습니다.
-				강제로 만나지 마십시오. 당신이 준비가 될 때만 만나십시오.
-				가고자 하는 장소를 친구에게 알리고 안전을 확인하기 위해 전화를 걸거나 문자를 보내도록 합니다. 충전이 완료되고 잔액이 충분한 휴대폰을 가져가도록 확인하고 만남의 상황과 안전하게 집에
-				돌아온 시간을 친구에게 알려주십시오.
-				만남 장소로 가고 오는 교통 수단을 스스로 계획하십시오. 상대방이나 자신의 집에서 만나지 마십시오. 대부분 자신과 상대방이 아주 친해질 때까지 주소를 알리지 않는 것이 좋습니다.
-				첫 만남은 낮에 공공장소에서 하고 자신이 똑똑할 때에만 만나십시오. 만남 때 너무 많이 술을 마시지 마십시오. 그리고 자신의 소지품과 음료수를 항상 시야 내에 두십시오.
+				만남 안전 규칙<br />
+				쌍방의 인신과 재산의 안전을 보장하고, 미지의 사람들과의 만남에潜在하는 위험을 줄이면서 동시에 쌍방이 약정을 준수하고 책임을 이행할 수 있도록 하기 위해 본 안전须知 및 보증금 관리
+				규칙을 제정합니다.
+				쌍방은 만나기 전에 본 규칙을 신중히 읽고 동의하여 보증금을 납부한 후에만 만남 활동을 진행할 수 있습니다.
+				<br /><br />
+				(一) 정보沟通
+				<br />
+				쌍방이 자발적으로 만나는 경우 만남의 목적, 시간, 장소를 명확히 해야 합니다. 만남 시간은 낮의 정상 업무 시간에 선택해야 하며, 만남 장소는 반드시 쇼핑몰, 카페, 공원 등 인원이
+				밀집하고 감시
+				장비가 완비된 공공 장소여야 하며 사생 주택, 외딴 구석 등 폐쇄적이거나 위험한 장소를 선택해서는 안 됩니다.
+				만남의 구체적인 계획을 문자 형식으로 상세히沟通하고 채팅 기록을 보관하여 후속 분쟁 발생 시 증거로 삼습니다.
+				<br /><br />
+
+				(二) 보증금 납부
+				<br />
+				쌍방은 약정된 만남 시간 이전에 각각 지정된 제3자 보증 계좌에 2000 달러를 보증금으로 납부해야 합니다. 이 보증금은 전문적인 제3자 보증 기구에서 관리하여 자금의 안전과 공정한
+				처리를 보장합니다.
+				보증금을 납부한 후에는 즉시 상대방에게 납부 성공 증빙(계좌 이체 스크린샷, 거래 기록 등)을 보내 쌍방이 확인할 수 있도록 합니다.
+				<br /><br />
+
+				(三) 만남 과정 안전 규범
+				<br />
+				쌍방이 만날 때는 적절한 사교 거리를 유지하고 불필요한 신체 접촉을 피해야 합니다.
+				상대방이 제공하는 음료, 음식 등을 무분별하게 받지 마세요. 마약을 넣히거나 다른 침해를 당할 위험을 방지하기 위해 실제로 음식을 필요로 한다면 자行 구매하거나 정규 상가에서 함께
+				소비하는 것을
+				권합니다.
+				주변 환경과 인원 상황을 항상 유의하며 어떤 이상이 발견되거나 불안을 느낀다면 즉시 만남을 종료하고 해당하는 안전 조치(주변 인원에게 도움을 청구, 경찰에 신고 등)를 취해야 합니다.
+				만남 과정에서 분쟁이나 갈등이 발생한 경우 쌍방은 냉静을 유지하고 우호적으로 협상하여 문제를 해결해야 합니다. 협상이 소용없다면 즉시 제3자 보증 기관인 Soul Mate
+				Platform에 개입 조정을
+				요청하고现场 증거(사진, 동영상, 증인 증언 등)을 보존합니다.
+				인신 위협, 폭력 침해 등의 긴급 사태에 직면한 경우 즉시 현지 경찰 전화(000)에求助하고 제3자 보증 기관인 Soul Mate Platform에 신속히 통보해야 합니다.
+				<br /><br />
+
+				(四) 만남 종료 및 보증금 환불
+				<br />
+				만남이 종료된 후 쌍방은 24 시간 이내에 지정된 플랫폼을 통해本次 만남에任何 분쟁, 문제가 없음을 확인해야 합니다. 제3자 보증 기관은 쌍방의 확인 정보를 받은 후 3 개 업무 일
+				이내에 쌍방이
+				납부한 보증금을 전액 원 지불 계좌로 환불합니다.
+				<br /><br />
+
+				(五) 본 안전须知 및 보증금 관리 규칙은 쌍방이 동의하고 보증금을 납부한 날부터 효력이 발생하여 쌍방에 법적 구속력을 가집니다.
 			</article>
 			<article v-if="langStr == 'vi'">
-				Trong Soul Mate, chúng tôi rất cẩn thận trong việc bảo vệrivacy của thành viên. Chúng tôi luôn quản lý
-				một cách nhất quán tất cả các trang cá nhân, ảnh và ngôn ngữ sử dụng trên trang web, đồng thời làm mọi
-				thứ có thể để bảo vệrivacy và an toàn của bạn. Tuy nhiên, chúng tôi muốn nhắc nhở bạn rằng an toàn trên
-				mạng cũng là trách nhiệm của bạn, điều này rất quan trọng. Vì vậy, hãy cẩn thận và suy nghĩ kỹ trước khi
-				hành động. Bảo vệ sự an toàn của bản thân!
-				Đừng chia sẻ hoặc tiết lộ mật khẩu của bạn cho bất kỳ bên thứ ba nào - ngay cả những người bạn thân của
-				bạn. Nếu bạn mất hoặc tiết lộ mật khẩu, có thể gây nguy hiểm cho dữ liệu cá nhân của bạn. Nếu hồ sơ cá
-				nhân của bạn bị hacker xâm nhập, xin vui lòng báo cáo cho nhóm của chúng tôi thông qua trang phản hồi
-				của chúng tôi.
-				Khi bạn chưa biết rõ về người bạn mới quen, đừng dễ dàng tiết lộ thông tin cá nhân. Điều này bao gồm
-				việc tiết lộ địa chỉ email, phương thức liên lạc qua tin nhắn tức thời, họ và tên đầy đủ và URL của bạn.
-				Xin vui lòng tuyệt đối không nói cho người khác về thông tin tài chính của bạn, chẳng hạn như thông tin
-				thẻ tín dụng.
-				Một số kẻ lừa đảo có thể giả mạo là đại diện của công ty chúng tôi hoặc các công ty khác yêu cầu bạn trả
-				tiền cho việc giao hàng hoặc dịch vụ của những 膺 thưởng giả định mà không phải là những gì được cung cấp
-				trực tiếp bởi trang web Soul Mate. Do đó, xin vui lòng phải rất cảnh giác. Đặc biệt, xin lưu ý rằng,
-				khi có người nói rằng họ gặp khó khăn và yêu cầu bạn cho tiền - những trường hợp như vậy thường là một
-				dấu trick.
-				Nếu bạn gặp bất kỳ hành vi không phù hợp nào, hãy nhấp vào liên kết để báo cáo hành vi vi phạm, sau đó
-				nhóm của chúng tôi sẽ nhận được báo cáo đó ngay lập tức. Nếu bạn cảm thấy không thoải mái khi giao tiếp
-				với một thành viên nào đó, bạn cũng có thể tìm thấy tùy chọn để chặn thành viên đó. Đừng chịu đựng bất
-				kỳ hành vi bất lịch sự hoặc quấy rối nào - chặn thành viên đó hoặc báo cáo cho nhóm dịch vụ khách hàng
-				của chúng tôi. Chúng tôi sẽ xử lý những vấn đề này càng sớm càng tốt, chúng tôi có một hệ thống giám sát
-				hoàn thiện để giám sát và kiểm soát chất lượng về vấn đề này.
-				Gợi ý về cuộc gặp offline:
-				Khi bạn nói chuyện với một thành viên mới quen, yêu cầu họ cho những ảnh chụp gần đây - tốt nhất là
-				những ảnh được chụp trong vòng 4 tuần trước.
-				Đừng buộc bản thân phải gặp người kia; Chỉ gặp nhau khi bạn đã chuẩn bị sẵn.
-				Nói cho những người bạn của bạn biết nơi bạn dự định đi, và để họ gọi điện thoại hoặc gửi tin nhắn để
-				xác nhận sự an toàn của bạn. Xin vui lòng đảm bảo mang theo điện thoại di động có pin đầy và số dư đủ,
-				đồng thời thông báo cho những người bạn của bạn về tình trạng cuộc gặp và khi nào bạn đã trở về nhà an
-				toàn một cách kịp thời.
-				Sắp xếp phương tiện đi lại đến và từ địa điểm cuộc gặp một cách tự do - đừng gặp nhau tại nhà của người
-				kia hoặc nhà của bản thân. Tốt nhất là không bao giờ tiết lộ địa chỉ của bạn, trừ khi bạn đã rất quen
-				với người kia.
-				Xin vui lòng đảm bảo sắp xếp cuộc gặp đầu tiên vào ban ngày và tại những nơi công 眾，đồng thời khi bạn
-				tỉnh táo! Xin vui lòng tuyệt đối không uống quá nhiều rượu trong thời gian cuộc gặp, và luôn giữ đồ đạc
-				và đồ uống của mình trong tầm nhìn của bản thân.
+				Quy tắc an toàn gặp gỡ<br />
+				Để bảo 障 an toàn nhân thân và tài sản của cả hai bên, giảm RISK tiềm ẩn khi gặp gỡ người lạ, đồng thời
+				đảm bảo
+				cả hai bên tuân thủ h 約 và 履行 trách nhiệm, đặc định 为本 an toàn cần biết 及 quản lý tiền cọc. Cả hai bên
+				cần đọc
+				kỹ và đồng ý với quy tắc này trước khi gặp gỡ, sau khi đóng tiền cọc mới được tiến hành hoạt động gặp
+				gỡ.
+				<br /><br />
+				（一）Truyền thông thông tin
+				<br />
+				Trong trường hợp cả hai bên đồng ý 自发 gặp gỡ, cần xác định rõ mục đích, thời gian, địa điểm gặp gỡ. Thời
+				gian
+				gặp gỡ nên chọn vào ban ngày, thời gian làm việc bình thường, địa điểm gặp gỡ 반 buộc là nơi công cộng,
+				như trung
+				tâm thương mại, quán cà phê, công viên आदि khu vực đông người, thiết bị giám sát hoàn thiện, cấm chọn
+				nơi ở
+				riêng, góc 少阴等場所 kín hoặc nguy hiểm.
+				Thông tin 詳細 về việc sắp xếp cụ thể cuộc gặp gỡ bằng hình thức văn bản, và lưu lại lịch sử trò chuyện,
+				làm bằng
+				chứng trong trường hợp xảy ra xung đột sau này.
+				<br /><br />
+
+				（二）Nộp tiền cọc
+				<br />
+				Cả hai bên cần trước thời gian 约定 gặp gỡ, mỗi bên đóng 2000 đô la Mỹ vào tài khoản bảo 證 thứ ba chỉ định
+				làm
+				tiền cọc. Tiền cọc này sẽ do cơ quan bảo 證 chuyên nghiệp thứ ba quản lý, đảm bảo an toàn tiền và xử lý
+				công
+				bằng.
+				Sau khi đóng tiền cọc, cần kịp gửi cho bên kia bằng chứng thành công đóng tiền (như hình chụp chuyển
+				khoản, ghi
+				chú giao dịch 等), để cả hai bên xác nhận.
+				<br /><br />
+
+				（三）Quy 範 an toàn trong quá trình gặp gỡ
+				<br />
+				Khi gặp gỡ, cả hai bên cần duy trì khoảng cách xã hội thích hợp, tránh mọi tiếp xúc cơ thể không cần
+				thiết.
+				Không nhận ngẫu nhiên đồ uống, đồ ăn 等 do bên kia cung cấp, ngăn chặn bị bỏ thuốc hoặc các 侵害 khác. Nếu
+				thực sự
+				cần ăn uống, đề xuất chọn 自行購買 hoặc cùng tiêu 費 tại nhà hàng chính quy.
+				Luôn chú ý đến môi trường xung quanh và tình 況人員，nếu phát hiện bất kỳ sự bất thường nào hoặc cảm thấy lo
+				ngại,
+				cần lập tức kết thúc cuộc gặp gỡ, và 采取 các biện pháp an toàn tương ứng (như cầu 助 đến 人員 xung quanh,
+				gọi cảnh
+				sát 等).
+				Nếu xảy ra xung đột hoặc xung đột trong quá trình gặp gỡ, cả hai bên cần giữ bình tĩnh, giải quyết vấn
+				đề thông
+				qua thương lượng thân thiện. Nếu không giải quyết được qua thương lượng, cần lập tức liên hệ cơ quan bảo
+				證 thứ
+				ba Soul Mate Platform can thiệp điều 停，và lưu lại bằng chứng hiện 場 (như ảnh, video, lời chứng của nhân
+				证等).
+				Nếu gặp trường hợp khẩn cấp như đe dọa nhân thân, xâm hại bạo lực 等，cần lập tức gọi điện thoại cảnh sát
+				địa
+				phương (000) tìm 求 giúp đỡ, và thông báo kịp thời cho cơ quan bảo 證 thứ ba Soul Mate Platform.
+				<br /><br />
+
+				（四）Kết thúc cuộc gặp gỡ và trả lại tiền cọc
+				<br />
+				Sau khi kết thúc cuộc gặp gỡ, cả hai bên cần trong 24 giờ qua platform chỉ định xác nhận 本次 cuộc gặp gỡ
+				không có
+				bất kỳ xung đột, vấn đề nào. Cơ quan bảo 證 thứ ba sẽ trả lại toàn 額 tiền cọc của cả hai bên vào tài
+				khoản thanh
+				toán ban đầu của mỗi bên trong 3 working days sau khi nhận được thông tin xác nhận từ cả hai bên.
+				<br /><br />
+
+				（五）Quy tắc an toàn cần biết 及 quản lý tiền cọc này có hiệu lực từ ngày cả hai bên đồng ý và đóng tiền
+				cọc, có
+				ràng buộc pháp lý đối với cả hai bên.
 			</article>
 			<article v-if="langStr == 'en'">
-				At Soul Mate, we take the protection of our members' privacy very seriously. We consistently manage all
-				personal homepages, photos, and the languages used on the website, and do everything we can to safeguard
-				your privacy and security. However, we would like to remind you that online safety is also your
-				responsibility, and this is very important. So be careful and think twice before you act. Protect your
-				own safety!
-				Don't share or disclose your password to any third party - even your friends. If you lose or leak your
-				password, it may put your private data at risk. If your personal profile is hacked, please report it to
-				our team through our feedback page.
-				When you don't know much about the new people you've just met, don't disclose your personal information
-				easily. This includes revealing your email address, instant messaging contact information, full name,
-				and URL. Please never tell others your financial information, such as credit card details.
-				Some scammers may pretend to be representatives of our company or other companies and ask you to pay for
-				the so-called prizes' express delivery or services that are not directly provided by the Soul Mate
-				website. Therefore, please be especially vigilant. In particular, please note that when someone says
-				they are in trouble and asks you for money - this situation is usually a scam.
-				If you encounter any inappropriate behavior, click on the link to report the violation, and our team
-				will receive the report immediately. If you feel uncomfortable when communicating with a certain member,
-				you can also find the option to block that member. Don't tolerate any rude or harassing behavior - block
-				the member or report it to our customer service team. We will deal with these matters as soon as
-				possible. We have a complete supervision system to monitor and control the quality in this regard.
-				Tips for offline meetings
-				When you talk to a new member you've just met, ask them for recent photos - preferably taken within the
-				last four weeks.
-				Never force yourself to meet the other person; Only meet when you are ready.
-				Tell your friends where you plan to go, and let them call or text you to confirm your safety. Please
-				make sure to bring a fully charged mobile phone with sufficient balance, and inform your friends in a
-				timely manner about the situation of the meeting and when you get home safely.
-				Arrange your own transportation to and from the meeting place - don't meet at the other person's or your
-				own home. It's best never to disclose your address unless you are already very familiar with the other
-				person.
-				Please make sure to arrange the first meeting during the daytime and in a public place, and when you are
-				sober! Please never drink too much alcohol during the meeting, and always keep your personal belongings
-				and drinks in your sight.
+				Meeting Safety Rules<br />
+				To protect the personal and property safety of both parties, reduce potential risks of meeting
+				strangers, and
+				ensure that both parties abide by agreements and fulfill responsibilities, this safety notice and
+				deposit
+				management rules are formulated. Both parties must carefully read and agree to this rule before meeting,
+				and can
+				only proceed with the meeting after paying the deposit.
+				<br /><br />
+				(1) Information Communication
+				<br />
+				When both parties voluntarily meet, the purpose, time, and location of the meeting must be clarified.
+				The
+				meeting time should be during daytime normal working hours, and the meeting place must be a public
+				place, such
+				as a mall, café, park, or other densely populated areas with complete monitoring equipment. Private
+				residences,
+				remote corners, or other enclosed or dangerous places are prohibited.
+				Communicate the specific arrangements for the meeting in written form and keep chat records as evidence
+				in case
+				of disputes.
+				<br /><br />
+
+				(2) Deposit Payment
+				<br />
+				Both parties must pay a deposit of $2,000 each to a designated third-party escrow account before the
+				agreed
+				meeting time. The deposit will be managed by a professional third-party escrow agency to ensure fund
+				safety and
+				fair handling.
+				After paying the deposit, promptly send the payment confirmation (such as a transfer screenshot or
+				transaction
+				record) to the other party for mutual verification.
+				<br /><br />
+
+				(3) Safety Norms During the Meeting
+				<br />
+				When meeting, both parties should maintain an appropriate social distance and avoid any unnecessary
+				physical
+				contact.
+				Do not accept drinks, food, etc., provided by the other party at will to prevent drugging or other
+				infringements. If eating or drinking is necessary, it is recommended to purchase by yourself or consume
+				together
+				at a regular merchant.
+				Always pay attention to the surrounding environment and personnel. If any abnormality is found or you
+				feel
+				uneasy, immediately terminate the meeting and take corresponding safety measures (such as seeking help
+				from
+				surrounding people, calling the police, etc.).
+				In case of disputes or conflicts during the meeting, both parties should remain calm and resolve the
+				problem
+				through friendly negotiation. If negotiation fails, immediately contact the third-party escrow agency
+				Soul Mate
+				Platform for mediation and retain on-site evidence (such as photos, videos, witness testimonies, etc.).
+				In case of emergency situations such as personal threats or violent 侵害，immediately call the local police
+				(000)
+				for help and notify the third-party escrow agency Soul Mate Platform in a timely manner.
+				<br /><br />
+
+				(4) Meeting End and Deposit Refund
+				<br />
+				After the meeting, both parties must confirm through the designated platform within 24 hours that there
+				are no
+				disputes or issues with the meeting. The third-party escrow agency will refund the full deposit paid by
+				both
+				parties to their original payment accounts within 3 working days after receiving the confirmation from
+				both
+				parties.
+				<br /><br />
+
+				(5) This safety notice and deposit management rules shall come into effect from the date when both
+				parties agree
+				and pay the deposit, and shall be legally binding on both parties.
 			</article>
 		</div>
 		<div v-if="type == 2">
 			<article v-if="langStr == 'zh'">
 				Soul Mate訂立了有關網站服務（以下簡稱服務）的下述協議（“使用條款”）。無論誰使用我們的服務，都被視為已同意遵守我們的使用條款。
 				1.同意使用條款
-				本協議（使用條款）包括現在和未來所經營的網站及客戶端。通過使用此服務，無論您是否註冊成為Soul Mate的會員（以下簡稱為會員），您將被視為已經同意這些使用條款。如果您不同意此服務條款，請您停止使用我們的服務。
+				本協議（使用條款）包括現在和未來所經營的網站及客戶端。通過使用此服務，無論您是否註冊成為Soul
+				Mate的會員（以下簡稱為會員），您將被視為已經同意這些使用條款。如果您不同意此服務條款，請您停止使用我們的服務。
 				2. 合格要求
 				年齡未滿18歲的未成年人不得使用我們的服務。通過使用我們的服務，您已聲明並保證您有權利和能力遵守使用條款的所有規定。
 				3.使用條款的變更
@@ -151,24 +272,37 @@
 				Soul Mate可以自行決定增加，刪除或修改服務功能或各項服務，而無需事先通知。
 				6. 訂製
 				a) 支付方式
-				您的支付條款將基於您的支付方式上，支付條款由您和金融機構，信用卡發行機構或其他您選擇的支付服務提供商（支付服務提供商）之間的協定來決定。如果Soul Mate不接受您的“支付服務提供商”所提供的付款服務，您同意根據需要支付所有金額。您同意為使用我們的服務，支付所有的應付賬款。如果您的賬款已付，您可以請求我們取消您的已付賬款的狀態，一旦您的賬戶被取消，你的已付費狀態將在您最後支付的日期時終止。已付費狀態不能轉讓。
+				您的支付條款將基於您的支付方式上，支付條款由您和金融機構，信用卡發行機構或其他您選擇的支付服務提供商（支付服務提供商）之間的協定來決定。如果Soul
+				Mate不接受您的“支付服務提供商”所提供的付款服務，您同意根據需要支付所有金額。您同意為使用我們的服務，支付所有的應付賬款。如果您的賬款已付，您可以請求我們取消您的已付賬款的狀態，一旦您的賬戶被取消，你的已付費狀態將在您最後支付的日期時終止。已付費狀態不能轉讓。
 				Soul Mate的已付費狀態是最終銷售，不能退款。有爭議的費用應在您購買服務後的60天內上報給Soul Mate。如對於您的已付費狀態有何疑問，請聯繫我們。
 				b)服務續約
 				您在Soul Mate網站訂製的服務將不會自動續約。您可以聯繫我們的客服團隊，隨時變更或重新訂製。如果您選擇重新訂製，您的訂製服務在到期後將不能自動續約。在訂製期滿前取消訂製的，不能得到退款。
 				c)免費試用和其他促銷
 				任何免費試用或其他促銷方式，可使訂製者在特定的試用期限使用我們的服務。如果促銷條款規定使用者需要訂製服務，您應該在試用期之前取消訂製，以避免交付訂製費。
 				7.通過合作夥伴加入Soul Mate
-				如果您通過Soul Mate的合作夥伴註冊使用我們的服務，並且Soul Mate與其合作夥伴進行合作，提供該服務。你將有使用該服務的會員權利，並且Soul Mate有權轉移您的會員資格或將您的已付款賬戶轉移到Soul Mate的類似服務項目內。
+				如果您通過Soul Mate的合作夥伴註冊使用我們的服務，並且Soul Mate與其合作夥伴進行合作，提供該服務。你將有使用該服務的會員權利，並且Soul
+				Mate有權轉移您的會員資格或將您的已付款賬戶轉移到Soul
+				Mate的類似服務項目內。
 				8. 社區內容
 				所有的服務內容都應該遵循社區內容指南的要求。您同意不發布，傳送，分發或鏈接任何涉及違法，騷擾，毀謗，威脅，有害，猥褻，悖逆，誹謗，詆毀他人名譽，以及侵犯別人隱私的內容，也不發送其他寧人不悅或侵害其他人或團體權益的內容。未經知識產權人的書面同意，不得使用他人的知識產權，包括受版權和商標權保護的資料，變更或未變更的知識產權，其他人的非版權文本或圖片等。
-				Soul Mate將不為會員所發的任何郵件或群討論帖的內容負責，也不對第三方或會員提供的任何信息，商品或服務負責。使用我們的服務，即表明您同意：在以下情況下，Soul Mate將不對您或其他人負責：例如：任何方的威脅，誹謗，猥褻，下流，攻擊或違法行為 ，或侵權行為，包括違法使用知識產權。 Soul Mate不擁有您提供給所有信息（包括回饋和建議），或您在Soul Mate所發布，下載，輸入或提交的所有信息（“提交的信息”）。然而，如果您在我們的網站或客戶端上發布，上傳，輸入，提供或提交信息，即表明您給予Soul Mate永久不可撤銷並且可轉讓的權利，Soul Mate有權複製，使用，儲存，修改，編輯，翻譯或發布任何或全部您所提交的信息，並且無需支付信息的使用費。 Soul Mate沒有義務發布或使用您所提交的信息，並且Soul Mate可以隨時自行決定刪除您所提交的信息。你在本網站發布，下載，輸入或提交信息，即表明您擁有您所發布信息的控制權。對於您的信息被刪除，無效或儲存失敗，Soul Mate和其合作方將不為此負責。
+				Soul Mate將不為會員所發的任何郵件或群討論帖的內容負責，也不對第三方或會員提供的任何信息，商品或服務負責。使用我們的服務，即表明您同意：在以下情況下，Soul
+				Mate將不對您或其他人負責：例如：任何方的威脅，誹謗，猥褻，下流，攻擊或違法行為 ，或侵權行為，包括違法使用知識產權。 Soul Mate不擁有您提供給所有信息（包括回饋和建議），或您在Soul
+				Mate所發布，下載，輸入或提交的所有信息（“提交的信息”）。然而，如果您在我們的網站或客戶端上發布，上傳，輸入，提供或提交信息，即表明您給予Soul Mate永久不可撤銷並且可轉讓的權利，Soul
+				Mate有權複製，使用，儲存，修改，編輯，翻譯或發布任何或全部您所提交的信息，並且無需支付信息的使用費。 Soul Mate沒有義務發布或使用您所提交的信息，並且Soul
+				Mate可以隨時自行決定刪除您所提交的信息。你在本網站發布，下載，輸入或提交信息，即表明您擁有您所發布信息的控制權。對於您的信息被刪除，無效或儲存失敗，Soul Mate和其合作方將不為此負責。
 				9.會員賬戶
-				一旦您註冊了我們的服務，您將會收到一個賬號和密碼，您應對您的賬戶和密碼保密，並對您賬戶相關的所有活動負責。一旦註冊成為會員，您將為您檔案的所有信息負責。禁止在檔案或網站服務項目中發布色情或其他淫穢的內容，因為這樣會威脅您的會員身份。對於Soul Mate網站的會員進行的線下約會，Soul Mate將不負任何責任。您同意Soul Mate向您發送郵件（涉及服務信息（包括變更升級），新功能或事件，使用服務的意見和建議）。
+				一旦您註冊了我們的服務，您將會收到一個賬號和密碼，您應對您的賬戶和密碼保密，並對您賬戶相關的所有活動負責。一旦註冊成為會員，您將為您檔案的所有信息負責。禁止在檔案或網站服務項目中發布色情或其他淫穢的內容，因為這樣會威脅您的會員身份。對於Soul
+				Mate網站的會員進行的線下約會，Soul Mate將不負任何責任。您同意Soul Mate向您發送郵件（涉及服務信息（包括變更升級），新功能或事件，使用服務的意見和建議）。
 				10. 受版權保護和商標權保護的材料
 				Soul Mate網站的內容均受版權保護Copyright© 2023-2026。
 				11.免責聲明
-				在Soul Mate網站或通過Soul Mate（或Soul Mate的代理商或合作方）發布的資料，均按“現有”和“現存”提供。它並無各種明示或暗示的保證和條件。 Soul Mate不控制第三方所提供的任何信息，產品或服務。您明確同意，使用服務將獨自承擔風險。根據適用法例的最大容許程度：Soul Mate就所有明確或隱含保證做出免責聲明，而此等保證範圍包括但不限於隱含的可銷售性及特殊用途合適性保證；Soul Mate並不保證所提供的服務能滿足您的需求，也不保證服務將不中斷，適時，安全或正確無誤。
-				Soul Mate不為服務使用和使用的結果做擔保。 Soul Mate也不保證本網站或服務項目不含任何病毒，或其他有害組件。 Soul Mate不保證或聲明：保持網站傳送信息的機密性。 Soul Mate不保證網站翻譯的準確和完整。 Soul Mate不為以下做擔保：通過本網站購買或獲得的任何商品或服務，或在本網站做廣告或贊助的商品或服務，或任何通過本網站所進行的交易。 Soul Mate不對您從Soul Mate或其服務中所獲得的信息做任何明示的保證（無論口頭還是書面）
+				在Soul Mate網站或通過Soul Mate（或Soul Mate的代理商或合作方）發布的資料，均按“現有”和“現存”提供。它並無各種明示或暗示的保證和條件。 Soul
+				Mate不控制第三方所提供的任何信息，產品或服務。您明確同意，使用服務將獨自承擔風險。根據適用法例的最大容許程度：Soul
+				Mate就所有明確或隱含保證做出免責聲明，而此等保證範圍包括但不限於隱含的可銷售性及特殊用途合適性保證；Soul Mate並不保證所提供的服務能滿足您的需求，也不保證服務將不中斷，適時，安全或正確無誤。
+				Soul Mate不為服務使用和使用的結果做擔保。 Soul Mate也不保證本網站或服務項目不含任何病毒，或其他有害組件。 Soul Mate不保證或聲明：保持網站傳送信息的機密性。 Soul
+				Mate不保證網站翻譯的準確和完整。 Soul Mate不為以下做擔保：通過本網站購買或獲得的任何商品或服務，或在本網站做廣告或贊助的商品或服務，或任何通過本網站所進行的交易。 Soul
+				Mate不對您從Soul
+				Mate或其服務中所獲得的信息做任何明示的保證（無論口頭還是書面）
 			</article>
 			<article v-if="langStr == 'jp'">
 				Soul Mate
@@ -191,7 +325,8 @@
 				a) 支払い方法
 				あなたの支払い条件は、あなたの支払い方法に基づき、あなたと金融機関、クレジットカード発行機関またはあなたが選択した支払いサービスプロバイダー（支払いサービスプロバイダー）との間の協定によって決定されます。もし
 				Soul Mate
-				があなたの「支払いサービスプロバイダー」が提供する支払いサービスを受け付けない場合、あなたは必要に応じてすべての金額を支払うことに同意するものとします。あなたは当社のサービスを利用するために、すべての支払い義務を負うことに同意します。もしあなたの支払いが完了した場合、あなたは当社に支払い済みのステータスを解除するよう請求することができます。一旦あなたのアカウントが解除されると、あなたの支払い済みステータスは最後の支払い日に終了します。支払い済みステータスは譲渡できません。Soul Mate の支払い済みステータスは最終販売であり、返金はできません。異議のある費用は、サービスを購入した日から 60 日以内に Soul Mate
+				があなたの「支払いサービスプロバイダー」が提供する支払いサービスを受け付けない場合、あなたは必要に応じてすべての金額を支払うことに同意するものとします。あなたは当社のサービスを利用するために、すべての支払い義務を負うことに同意します。もしあなたの支払いが完了した場合、あなたは当社に支払い済みのステータスを解除するよう請求することができます。一旦あなたのアカウントが解除されると、あなたの支払い済みステータスは最後の支払い日に終了します。支払い済みステータスは譲渡できません。Soul
+				Mate の支払い済みステータスは最終販売であり、返金はできません。異議のある費用は、サービスを購入した日から 60 日以内に Soul Mate
 				に報告する必要があります。あなたの支払い済みステータスに関する疑問がある場合は、当社にご連絡ください。
 
 				b) サービスの更新
@@ -203,27 +338,38 @@
 
 				パートナーを通じた Soul Mate への加入
 				あなたが Soul Mate のパートナーを通じて当社のサービスを登録し、Soul Mate
-				がそのパートナーと協力して該当サービスを提供する場合、あなたは該当サービスの会員権利を有することになり、Soul Mate はあなたの会員資格を移転したり、あなたの支払い済みアカウントを Soul Mate の類似サービス項目に移転する権利を有します。
+				がそのパートナーと協力して該当サービスを提供する場合、あなたは該当サービスの会員権利を有することになり、Soul Mate はあなたの会員資格を移転したり、あなたの支払い済みアカウントを Soul Mate
+				の類似サービス項目に移転する権利を有します。
 				コミュニティコンテンツ
-				すべてのサービスコンテンツは、コミュニティコンテンツガイドラインの要件に従う必要があります。あなたは、違法、嫌がらせ、誹謗、脅迫、有害、猥褻、悖逆、名誉毀損、他人の名誉を傷つける内容、および他人のプライバシーを侵害する内容を含む、または他の人や団体の権益を侵害する不快な内容を発布、送信、配布またはリンクすることに同意しません。知的財産権者の書面による同意がない場合、他人の知的財産権、著作権および商標権によって保護される資料、変更または未変更の知的財産権、他人の非著作権テキストまたは画像などを使用することはできません。Soul Mate
+				すべてのサービスコンテンツは、コミュニティコンテンツガイドラインの要件に従う必要があります。あなたは、違法、嫌がらせ、誹謗、脅迫、有害、猥褻、悖逆、名誉毀損、他人の名誉を傷つける内容、および他人のプライバシーを侵害する内容を含む、または他の人や団体の権益を侵害する不快な内容を発布、送信、配布またはリンクすることに同意しません。知的財産権者の書面による同意がない場合、他人の知的財産権、著作権および商標権によって保護される資料、変更または未変更の知的財産権、他人の非著作権テキストまたは画像などを使用することはできません。Soul
+				Mate
 				は、会員が送信するいかなるメールまたはグループディスカッションの内容にも責任を負わず、第三者または会員が提供するいかなる情報、商品またはサービスにも責任を負いません。当社のサービスを利用することにより、あなたは以下の場合に
-				Soul Mate があなたまたは他の人に対して責任を負わないことに同意するものとします。例えば、いかなる者の脅迫、誹謗、猥褻、下品、攻撃または違法行為、または知的財産権の違法使用を含む侵害行為。Soul Mate は、あなたが提供するすべての情報（フィードバックや提案を含む）、またはあなたが Soul Mate
+				Soul Mate があなたまたは他の人に対して責任を負わないことに同意するものとします。例えば、いかなる者の脅迫、誹謗、猥褻、下品、攻撃または違法行為、または知的財産権の違法使用を含む侵害行為。Soul
+				Mate
+				は、あなたが提供するすべての情報（フィードバックや提案を含む）、またはあなたが Soul Mate
 				で発布、ダウンロード、入力または提出するすべての情報（「提出情報」）を所有しません。しかし、あなたが当社のウェブサイトまたはクライアントで情報を発布、アップロード、入力、提供または提出することにより、あなたは
 				Soul Mate に対して、あなたが提出した情報の一部または全部を複製、使用、保存、変更、編集、翻訳または発布する永久的かつ取消不能で譲渡可能な権利を与えることになり、Soul Mate
 				は情報の使用料を支払う必要はありません。Soul Mate は、あなたが提出した情報を発布または使用する義務を負わず、Soul Mate
-				はいつでも独自の判断であなたが提出した情報を削除することができます。あなたが本ウェブサイトで情報を発布、ダウンロード、入力または提出することにより、あなたはあなたが発布した情報の管理権を有することを表明するものとします。あなたの情報が削除されたり、無効になったり、保存に失敗したりした場合、Soul Mate およびそのパートナーはこれに対して責任を負いません。
+				はいつでも独自の判断であなたが提出した情報を削除することができます。あなたが本ウェブサイトで情報を発布、ダウンロード、入力または提出することにより、あなたはあなたが発布した情報の管理権を有することを表明するものとします。あなたの情報が削除されたり、無効になったり、保存に失敗したりした場合、Soul
+				Mate およびそのパートナーはこれに対して責任を負いません。
 				会員アカウント
-				あなたが当社のサービスに登録すると、あなたはアカウントとパスワードを受け取ります。あなたはあなたのアカウントとパスワードを秘密にするとともに、あなたのアカウントに関連するすべての活動に責任を負うものとします。会員に登録されると、あなたはあなたのプロファイルのすべての情報に責任を負うことになります。プロファイルまたはウェブサイトのサービス項目に色情またはその他の猥褻な内容を発布することは禁止されており、これはあなたの会員資格を脅かす可能性があります。Soul Mate ウェブサイトの会員が行うオフラインのデートについて、Soul Mate は一切の責任を負いません。あなたは、Soul Mate
+				あなたが当社のサービスに登録すると、あなたはアカウントとパスワードを受け取ります。あなたはあなたのアカウントとパスワードを秘密にするとともに、あなたのアカウントに関連するすべての活動に責任を負うものとします。会員に登録されると、あなたはあなたのプロファイルのすべての情報に責任を負うことになります。プロファイルまたはウェブサイトのサービス項目に色情またはその他の猥褻な内容を発布することは禁止されており、これはあなたの会員資格を脅かす可能性があります。Soul
+				Mate ウェブサイトの会員が行うオフラインのデートについて、Soul Mate は一切の責任を負いません。あなたは、Soul Mate
 				があなたに対してメール（サービス情報（変更やアップグレードを含む）、新機能またはイベント、サービスの利用に関する意見や提案を含む）を送信することに同意するものとします。
 				著作権および商標権によって保護される資料
 				Soul Mate ウェブサイトのコンテンツはすべて著作権によって保護されています（Copyright © 2023 - 2026）。
 				免責事項
 				Soul Mate ウェブサイトまたは Soul Mate（または Soul Mate
 				の代理店もしくはパートナー）を通じて発布される資料は、「現状のまま」および「現存するまま」で提供されます。これには、明示または暗示のさまざまな保証や条件は含まれていません。Soul Mate
-				は、第三者が提供するいかなる情報、製品またはサービスも管理していません。あなたは、サービスの利用について独自にリスクを負うことに明確に同意するものとします。適用法令の最大限の許容範囲に基づき、Soul Mate はすべての明示または暗示の保証について免責を宣言し、これらの保証の範囲には、限定されないが、暗示の販売可能性および特定の用途に適合する保証が含まれます。Soul Mate
-				は、提供するサービスがあなたの要求を満たすことを保証せず、サービスが中断せず、適時、安全または正確であることを保証しません。Soul Mate は、サービスの利用および利用結果について保証しません。Soul Mate は、本ウェブサイトまたはサービス項目にウイルスまたはその他の有害なコンポーネントが含まれていないことを保証しません。Soul Mate
+				は、第三者が提供するいかなる情報、製品またはサービスも管理していません。あなたは、サービスの利用について独自にリスクを負うことに明確に同意するものとします。適用法令の最大限の許容範囲に基づき、Soul
+				Mate
+				はすべての明示または暗示の保証について免責を宣言し、これらの保証の範囲には、限定されないが、暗示の販売可能性および特定の用途に適合する保証が含まれます。Soul Mate
+				は、提供するサービスがあなたの要求を満たすことを保証せず、サービスが中断せず、適時、安全または正確であることを保証しません。Soul Mate は、サービスの利用および利用結果について保証しません。Soul
+				Mate
+				は、本ウェブサイトまたはサービス項目にウイルスまたはその他の有害なコンポーネントが含まれていないことを保証しません。Soul Mate
 				は、ウェブサイトを通じて送信される情報の機密性を保持することを保証または表明しません。Soul Mate は、ウェブサイトの翻訳が正確かつ完全であることを保証しません。Soul Mate
-				は、本ウェブサイトを通じて購入または取得したいかなる商品またはサービス、または本ウェブサイトで広告またはスポンサーされている商品またはサービス、または本ウェブサイトを通じて行われるいかなる取引についても保証しません。Soul Mate は、あなたが Soul Mate またはそのサービスから得た情報について、明示の保証（口頭または書面）を一切行いません。
+				は、本ウェブサイトを通じて購入または取得したいかなる商品またはサービス、または本ウェブサイトで広告またはスポンサーされている商品またはサービス、または本ウェブサイトを通じて行われるいかなる取引についても保証しません。Soul
+				Mate は、あなたが Soul Mate またはそのサービスから得た情報について、明示の保証（口頭または書面）を一切行いません。
 			</article>
 			<article v-if="langStr == 'ko'">
 				Soul Mate는 웹사이트 서비스(이하 '서비스'라 함)의 다음과 같은 계약(「이용 약관」)을 정했습니다. 우리 서비스를 이용하는 모든 분은 이 이용 약관을 준수하는 데 동의한 것으로
@@ -277,7 +423,9 @@
 				회원 계정
 				일단 귀하가 우리 서비스에 등록하면, 귀하는 계정과 비밀번호를 받게 됩니다. 귀하는 귀하의 계정과 비밀번호를 비밀리에 유지하고, 귀하의 계정과 관련된 모든 활동에 대해 책임을 져야
 				합니다. 회원으로 등록되면, 귀하는 귀하의 프로필의 모든 정보에 대해 책임을 져야 합니다. 프로필이나 웹사이트 서비스 항목에 음란 또는 기타 불쾌한 내용을 게시하는 것은 금지되며, 이는
-				귀하의 회원 자격을 위협할 수 있습니다. Soul Mate 웹사이트의 회원이 하는 오프라인 데이트에 대해, Soul Mate은 어떠한 책임도 지지 않습니다. 귀하는 Soul Mate이 귀하에게 이메일(서비스 정보(변경 및 업그레이드 포함), 새로운 기능 또는 이벤트, 서비스 이용에 대한 의견 및 제안 포함)을 보내는 것에 동의합니다.
+				귀하의 회원 자격을 위협할 수 있습니다. Soul Mate 웹사이트의 회원이 하는 오프라인 데이트에 대해, Soul Mate은 어떠한 책임도 지지 않습니다. 귀하는 Soul Mate이
+				귀하에게
+				이메일(서비스 정보(변경 및 업그레이드 포함), 새로운 기능 또는 이벤트, 서비스 이용에 대한 의견 및 제안 포함)을 보내는 것에 동의합니다.
 				저작권 및 상표권으로 보호되는 자료
 				Soul Mate 웹사이트의 콘텐츠는 모두 저작권(Copyright © 2023 - 2026)으로 보호됩니다.
 				면책 조항
@@ -298,7 +446,9 @@
 
 				Đồng ý Điều khoản sử dụng
 				Thỏa thuận này (Điều khoản sử dụng) bao gồm cả trang web và ứng dụng khách hàng được vận hành hiện tại
-				và trong tương lai. Bằng cách sử dụng dịch vụ này, cho dù bạn có đăng ký trở thành thành viên của Soul Mate (sau đây được gọi tắt là "thành viên") hay không, bạn sẽ được coi là đã đồng ý với các Điều khoản
+				và trong tương lai. Bằng cách sử dụng dịch vụ này, cho dù bạn có đăng ký trở thành thành viên của Soul
+				Mate (sau
+				đây được gọi tắt là "thành viên") hay không, bạn sẽ được coi là đã đồng ý với các Điều khoản
 				sử dụng này. Nếu bạn không đồng ý với Điều khoản dịch vụ này, vui lòng ngừng sử dụng dịch vụ của chúng
 				tôi.
 				Yêu cầu đủ điều kiện
@@ -346,7 +496,9 @@
 
 				Tham gia Soul Mate thông qua đối tác
 				Nếu bạn đăng ký sử dụng dịch vụ của chúng tôi thông qua đối tác của Soul Mate và Soul Mate hợp tác với
-				đối tác đó để cung cấp dịch vụ đó, bạn sẽ có quyền sử dụng dịch vụ như một thành viên. Đồng thời, Soul Mate có quyền chuyển đổi tư cách thành viên của bạn hoặc chuyển tài khoản đã thanh toán của bạn sang
+				đối tác đó để cung cấp dịch vụ đó, bạn sẽ có quyền sử dụng dịch vụ như một thành viên. Đồng thời, Soul
+				Mate có
+				quyền chuyển đổi tư cách thành viên của bạn hoặc chuyển tài khoản đã thanh toán của bạn sang
 				các dịch vụ tương tự của Soul Mate.
 				Nội dung cộng đồng
 				Tất cả Nội dung dịch vụ phải tuân theo hướng dẫn về Nội dung cộng đồng. Bạn đồng ý không đăng tải,
@@ -361,7 +513,9 @@
 				hàng hóa hoặc dịch vụ nào được cung cấp bởi bên thứ ba hoặc thành viên. Bằng cách sử dụng dịch vụ của
 				chúng tôi, bạn đồng ý rằng: trong các trường hợp sau, Soul Mate sẽ không chịu trách nhiệm đối với bạn
 				hoặc người khác: ví dụ như: hành vi đe dọa, slander, bạo lực, tục tĩu, tấn công hoặc bất hợp pháp của
-				bất kỳ bên nào, hoặc hành vi vi phạm quyền, bao gồm việc sử dụng bất hợp pháp quyền sở hữu trí tuệ. Soul Mate không sở hữu tất cả thông tin bạn cung cấp (bao gồm phản hồi và đề xuất), hoặc tất cả thông tin
+				bất kỳ bên nào, hoặc hành vi vi phạm quyền, bao gồm việc sử dụng bất hợp pháp quyền sở hữu trí tuệ. Soul
+				Mate
+				không sở hữu tất cả thông tin bạn cung cấp (bao gồm phản hồi và đề xuất), hoặc tất cả thông tin
 				bạn đăng tải, tải xuống, nhập vào hoặc gửi lên trên Soul Mate (được gọi là "thông tin đã gửi"). Tuy
 				nhiên, nếu bạn đăng tải, tải lên, nhập vào, cung cấp hoặc gửi thông tin trên trang web hoặc ứng dụng
 				khách hàng của chúng tôi, điều đó có nghĩa là bạn cấp cho Soul Mate quyền sử dụng vĩnh viễn, không thể
@@ -408,7 +562,9 @@
 
 				Agreement to the Terms of Use
 				This agreement (the Terms of Use) covers the websites and clients that are currently operated and those
-				to be operated in the future. By using this Service, whether or not you register as a member of Soul Mate (hereinafter referred to as a "Member"), you will be deemed to have agreed to these Terms of Use.
+				to be operated in the future. By using this Service, whether or not you register as a member of Soul
+				Mate
+				(hereinafter referred to as a "Member"), you will be deemed to have agreed to these Terms of Use.
 				If you do not agree to these Service Terms, please stop using our Services.
 				Eligibility Requirements
 				Minors under the age of 18 are not allowed to use our Services. By using our Services, you have declared
@@ -472,7 +628,9 @@
 				illegal acts, or infringement acts, including the illegal use of intellectual property. Soul Mate does
 				not own all the information you provide (including feedback and suggestions), or all the information you
 				publish, download, enter, or submit on Soul Mate ("Submitted Information"). However, if you publish,
-				upload, enter, provide, or submit information on our website or client, it means that you grant Soul Mate the right to copy, use, store, modify, edit, translate, or publish any or all of the information
+				upload, enter, provide, or submit information on our website or client, it means that you grant Soul
+				Mate the
+				right to copy, use, store, modify, edit, translate, or publish any or all of the information
 				you submit, which is permanent, irrevocable, and transferable, and Soul Mate does not need to pay a
 				usage fee for the information. Soul Mate has no obligation to publish or use the information you
 				submit, and Soul Mate may, at its sole discretion, delete the information you submit at any time. By
@@ -501,7 +659,9 @@
 				and fitness for a particular purpose; Soul Mate does not guarantee that the provided Service will meet
 				your needs, nor does it guarantee that the Service will be uninterrupted, timely, secure, or error-free.
 				Soul Mate does not warrant the use of the Service and the results of its use. Soul Mate also does not
-				guarantee that the website or Service items are free from any viruses or other harmful components. Soul Mate does not guarantee or represent that it will maintain the confidentiality of the information
+				guarantee that the website or Service items are free from any viruses or other harmful components. Soul
+				Mate
+				does not guarantee or represent that it will maintain the confidentiality of the information
 				transmitted on the website. Soul Mate does not guarantee the accuracy and completeness of the website
 				translation. Soul Mate does not warrant the following: any goods or services purchased or obtained
 				through this website, or goods or services advertised or sponsored on this website, or any transactions
@@ -511,18 +671,22 @@
 		</div>
 		<div v-if="type == 3">
 			<article v-if="langStr == 'zh'">
-				Soul Mate尊重用戶的隱私權，並製定隱私政策，保護您的隱私權。隱私政策包括：Soul Mate的用戶情況，我們所收集的信息，怎樣利用這些信息，以及與誰分享這些信息。當您使用我們的網站或服務，或與我們進行商務交易時，我們建議你仔細閱讀“隱私政策”。通過使用我們的網站，表明您已接受本保密協議的規定。
+				Soul Mate尊重用戶的隱私權，並製定隱私政策，保護您的隱私權。隱私政策包括：Soul
+				Mate的用戶情況，我們所收集的信息，怎樣利用這些信息，以及與誰分享這些信息。當您使用我們的網站或服務，或與我們進行商務交易時，我們建議你仔細閱讀“隱私政策”。通過使用我們的網站，表明您已接受本保密協議的規定。
 				Soul Mate非常重視網絡隱私。如果您對該隱私政策有任何疑問，請聯繫我們。
 				未滿18歲的人士
-				Soul Mate不會故意收集或保存未滿18歲人士的個人驗證信息或非個人驗證信息，本網站下的任何項目均不面向未滿18歲的人士開放。如果你未滿18歲，請停止使用或禁止進入本網站或服務。如果Soul Mate獲悉所收集的信息中有未滿18歲人士的個人驗證信息，本網站將採取合理的步驟，刪除該信息。
+				Soul Mate不會故意收集或保存未滿18歲人士的個人驗證信息或非個人驗證信息，本網站下的任何項目均不面向未滿18歲的人士開放。如果你未滿18歲，請停止使用或禁止進入本網站或服務。如果Soul
+				Mate獲悉所收集的信息中有未滿18歲人士的個人驗證信息，本網站將採取合理的步驟，刪除該信息。
 				我們所收集的信息
 				我們收集並處理以下信息：您填寫的相關信息（包括您的個人信息，聯繫信息，以及當您創建會員檔案時所填寫的其他檔案信息）。同時，我們也收集以下信息：當你自由填寫顧客調查表，提供反饋和參與競爭時，所提供的相關信息。如果您與我們聯繫，我們會記錄你的通信信息。交易信息包括您從我們網站定購有關產品和服務的信息。瀏覽我們網站的訪客，並且他們的信息已被記錄的，可以有權以相同的信息登錄，並有權更正信息或查看有關該信息的政策和規則。訪客可以直接與我們聯繫。
 				其他方收集的信息
-				我們允許第三方（包括我們的授權服務提供商，廣告公司和廣告網站）在我們的網站上發表廣告。如果你打開一個鏈接（例如一個廣告標誌），這將使你將離開我們的網站，登錄其他的網站，如果你隨後在其他網站上提供信息，我們將不能控制該信息的使用。本隱私政策將不對其他網站或廣告商的信息保密負責。對於其他網站如何使用你的信息，Soul Mate也將不為此負擔任何責任。
+				我們允許第三方（包括我們的授權服務提供商，廣告公司和廣告網站）在我們的網站上發表廣告。如果你打開一個鏈接（例如一個廣告標誌），這將使你將離開我們的網站，登錄其他的網站，如果你隨後在其他網站上提供信息，我們將不能控制該信息的使用。本隱私政策將不對其他網站或廣告商的信息保密負責。對於其他網站如何使用你的信息，Soul
+				Mate也將不為此負擔任何責任。
 				我們怎樣使用收集的信息？
 				我們按以下方式使用所收集的用戶信息：管理您的用戶賬戶（包括：通知您任何匹配的對象，提示，通告，更新資料或促銷活動）幫助你訂製個性化的網站回訪向您提供您所詢問的信息，產品或服務，或者你感興趣的信息進行市場分析和調查幫助我們改進服務結構，佈局和適用性
 				我們與誰分享所收集的信息
-				我們可能在特定方面將您的信息與第三方分享，例如：當您從我們網站訂製服務時，我們提供你的信息給第三方進行付款處理。但是我們將控制第三方使用您的信息，並對此負責。我們有可能將您的某些信息透露給我們的合作公司，以便向您提供服務，例如：郵件或聊天功能服務。為了提供這些服務，我們必須將您的信息（包括您的Soul Mate用戶名和email地址）提供給我們的合作夥伴。
+				我們可能在特定方面將您的信息與第三方分享，例如：當您從我們網站訂製服務時，我們提供你的信息給第三方進行付款處理。但是我們將控制第三方使用您的信息，並對此負責。我們有可能將您的某些信息透露給我們的合作公司，以便向您提供服務，例如：郵件或聊天功能服務。為了提供這些服務，我們必須將您的信息（包括您的Soul
+				Mate用戶名和email地址）提供給我們的合作夥伴。
 				變更隱私政策
 				我們經常審核“隱私政策”，並在此頁面公佈政策的變更信息。我們鼓勵會員經常審核我們的隱私政策，以便更好地了解我們所收集的信息，以及我們怎樣運用信息，以及在何種情況下使用信息，與他人分享信息。
 				怎樣聯繫我們
@@ -530,7 +694,8 @@
 			</article>
 			<article v-if="langStr == 'jp'">
 				Soul Mate はユーザーのプライバシー権を尊重し、プライバシーポリシーを策定して、あなたのプライバシー権を保護します。プライバシーポリシーには、Soul Mate
-				のユーザーの状況、当社が収集する情報、それらの情報をどのように利用するか、および誰とそれらの情報を共有するかが含まれます。当社のウェブサイトまたはサービスを使用する場合、または当社と商取引を行う場合、「プライバシーポリシー」を慎重に読むことをお勧めします。当社のウェブサイトを使用することにより、あなたは本秘密保持契約の規定を受け入れたことになります。Soul Mate はネットワークプライバシーを非常に重視しています。もしこのプライバシーポリシーに関する疑問があれば、当社にご連絡ください。
+				のユーザーの状況、当社が収集する情報、それらの情報をどのように利用するか、および誰とそれらの情報を共有するかが含まれます。当社のウェブサイトまたはサービスを使用する場合、または当社と商取引を行う場合、「プライバシーポリシー」を慎重に読むことをお勧めします。当社のウェブサイトを使用することにより、あなたは本秘密保持契約の規定を受け入れたことになります。Soul
+				Mate はネットワークプライバシーを非常に重視しています。もしこのプライバシーポリシーに関する疑問があれば、当社にご連絡ください。
 				18 歳未満の方々
 
 				Soul Mate は、故意に 18 歳未満の方々の個人識別情報または非個人識別情報を収集または保存しません。当ウェブサイトの下のどんな項目も 18 歳未満の方々には開放されていません。もしあなたが 18
@@ -541,7 +706,8 @@
 				当社は以下の情報を収集し、処理します：あなたが記入した関連情報（あなたの個人情報、連絡先情報、およびあなたが会員プロファイルを作成するときに記入したその他のプロファイル情報を含む）。同時に、当社は以下の情報も収集します：あなたが自由に顧客アンケートを記入し、フィードバックを提供し、競争に参加するときに提供される関連情報。もしあなたが当社に連絡した場合、当社はあなたの通信情報を記録します。取引情報には、当社のウェブサイトから注文した関連製品とサービスの情報が含まれます。当社のウェブサイトを訪問し、その情報が記録された訪問者は、同じ情報でログインする権利があり、情報を訂正する権利や、その情報に関するポリシーと規則を閲覧する権利があります。訪問者は直接当社に連絡することができます。
 				他の側が収集する情報
 
-				当社は第三者（当社の承認を得たサービスプロバイダー、広告会社、および広告サイトを含む）に当社のウェブサイト上で広告を掲載することを許可しています。もしあなたがリンク（例えば広告マーク）を開いた場合、それによりあなたは当社のウェブサイトを離れ、他のウェブサイトにログインすることになります。もしあなたがその後他のウェブサイトで情報を提供した場合、当社はその情報の使用を制御することができません。本プライバシーポリシーは、他のウェブサイトや広告主の情報の機密保持について責任を負いません。他のウェブサイトがあなたの情報をどのように使用するかについて、Soul Mate も一切の責任を負いません。
+				当社は第三者（当社の承認を得たサービスプロバイダー、広告会社、および広告サイトを含む）に当社のウェブサイト上で広告を掲載することを許可しています。もしあなたがリンク（例えば広告マーク）を開いた場合、それによりあなたは当社のウェブサイトを離れ、他のウェブサイトにログインすることになります。もしあなたがその後他のウェブサイトで情報を提供した場合、当社はその情報の使用を制御することができません。本プライバシーポリシーは、他のウェブサイトや広告主の情報の機密保持について責任を負いません。他のウェブサイトがあなたの情報をどのように使用するかについて、Soul
+				Mate も一切の責任を負いません。
 				当社は収集した情報をどのように使用するのか？
 
 				当社は収集したユーザー情報を以下のように使用します：
@@ -746,101 +912,101 @@
 </template>
 
 <script setup>
-	import {
-		useRouter,
-		useRoute
-	} from 'vue-router';
-	import {
-		ref,
-		onMounted,
-		onUnmounted,
-		reactive,
-		onBeforeMount
-	} from 'vue';
-	import {
-		Carousel
-	} from 'ant-design-vue';
-	import mainApi from '../api/main.js'
-	import {
-		ElNotification
-	} from 'element-plus'
-	import {
-		message
-	} from 'ant-design-vue';
-	import en from '../locales/en.js';
-	import zh from '../locales/zh.js';
-	import jp from '../locales/jp.js';
-	import ko from '../locales/ko.js';
-	import vi from '../locales/vi.js';
-	const langs = {
-		en,
-		zh,
-		jp,
-		ko,
-		vi
-	}
-	let lang = langs[localStorage.getItem('language')]
-	const router = useRouter();
-	const route = useRoute();
-	console.log(router)
-	const user = JSON.parse(localStorage.getItem('user'))
-	if (!user) {
-		router.replace('/login');
-	}
-	import {
-		useCounterStore
-	} from '../store/index';
-	import mineApi from '../api/mine.js'
+import {
+	useRouter,
+	useRoute
+} from 'vue-router';
+import {
+	ref,
+	onMounted,
+	onUnmounted,
+	reactive,
+	onBeforeMount
+} from 'vue';
+import {
+	Carousel
+} from 'ant-design-vue';
+import mainApi from '../api/main.js'
+import {
+	ElNotification
+} from 'element-plus'
+import {
+	message
+} from 'ant-design-vue';
+import en from '../locales/en.js';
+import zh from '../locales/zh.js';
+import jp from '../locales/jp.js';
+import ko from '../locales/ko.js';
+import vi from '../locales/vi.js';
+const langs = {
+	en,
+	zh,
+	jp,
+	ko,
+	vi
+}
+let lang = langs[localStorage.getItem('language')]
+const router = useRouter();
+const route = useRoute();
+console.log(router)
+const user = JSON.parse(localStorage.getItem('user'))
+if (!user) {
+	router.replace('/login');
+}
+import {
+	useCounterStore
+} from '../store/index';
+import mineApi from '../api/mine.js'
 
-	const store = useCounterStore();
-	const userInfo = ref({})
-	const getUser = () => {
-		mineApi.get_user({
-			account: JSON.parse(localStorage.getItem('user')).account
-		}).then(res => {
-			if (res.code == 0) {
-				const user = res.rows[0]
-				console.log(user)
-				delete user.password
-				userInfo.value = user
-				store.user = user
-				console.log(store.user)
-				const localUser = user
-				localStorage.setItem('user', JSON.stringify(localUser))
-			} else {
-				message.error('fail');
-			}
-		})
-	}
-	//初始化用户信息
-	getUser()
-	let langStr = ref()
-	langStr.value = localStorage.getItem('language')
-	let type = ref()
-	type.value = route.query.type
-	console.log(type.value)
-	onBeforeMount(() => {})
-	onMounted(async () => {});
+const store = useCounterStore();
+const userInfo = ref({})
+const getUser = () => {
+	mineApi.get_user({
+		account: JSON.parse(localStorage.getItem('user')).account
+	}).then(res => {
+		if (res.code == 0) {
+			const user = res.rows[0]
+			console.log(user)
+			delete user.password
+			userInfo.value = user
+			store.user = user
+			console.log(store.user)
+			const localUser = user
+			localStorage.setItem('user', JSON.stringify(localUser))
+		} else {
+			message.error('fail');
+		}
+	})
+}
+//初始化用户信息
+getUser()
+let langStr = ref()
+langStr.value = localStorage.getItem('language')
+let type = ref()
+type.value = route.query.type
+console.log(type.value)
+onBeforeMount(() => { })
+onMounted(async () => { });
 </script>
 
 <style scoped>
-	.back {
-		position: absolute;
-		left: 10px;
-		top: 10px;
-		z-index: 1;
-	}
+.back {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+}
 
-	article {
-		text-align: left;
-		text-indent: 2em;
-	}
+article {
+	text-align: left;
+	text-indent: 2em;
+}
 
-	.main {
-		background-color: #161A1D;
-		height: 92vh;
-		overflow: scroll;
-		padding: 50px 10px;
-		position: relative;
-	}
+.main {
+	background-color: #161A1D;
+	height: 92vh;
+	overflow: scroll;
+	padding: 50px 10px;
+	position: relative;
+}
 </style>

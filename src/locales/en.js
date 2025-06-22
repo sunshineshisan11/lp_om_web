@@ -5,7 +5,7 @@ export default {
 		languageDialog: {
 			title: 'Please select the language you are proficient in.'
 		},
-		rule:'',
+		rule: '',
 		buttons: ['Language', 'Login', 'Register'],
 		inputs: ['Please enter your number.', 'Please enter your password.', 'Please enter the invitation code.'],
 		gender: ['Male', 'Female'],
@@ -24,16 +24,16 @@ export default {
 			input: 'Enter your name.',
 			buttons: ['Cancel', 'Confirm']
 		},
-		upload:['Please upload the transfer receipt of the first membership registration procedure you have handled.','Please upload the transfer receipt of the second membership registration procedure you have handled.','Please upload the transfer receipt of the third membership registration procedure you have handled.'],
-		message:['Please enter the password', 'Please enter the new password', 'The password cannot be less than six digits.', 'The two new password entries do not match.', 'The modification was successful.', 'The password is incorrect.'],
+		upload: ['Please upload the transfer receipt of the first membership registration procedure you have handled.', 'Please upload the transfer receipt of the second membership registration procedure you have handled.', 'Please upload the transfer receipt of the third membership registration procedure you have handled.'],
+		message: ['Please enter the password', 'Please enter the new password', 'The password cannot be less than six digits.', 'The two new password entries do not match.', 'The modification was successful.', 'The password is incorrect.'],
 		model: {
 			titles: ['Points', 'Remaining points', 'Withdrawal records', 'Old Password', 'New Password', 'Confirm Password'],
 			buttons: ['Cancel', 'Confirm'],
 			message: ['Please enter points.', {
-					title: 'System prompt',
-					content: 'You have already submitted an application.',
-					okText: 'I see.'
-				}, 'Submission successful.', 'Please upload your avatar.', 'Please enter your name.',
+				title: 'System prompt',
+				content: 'You have already submitted an application.',
+				okText: 'I see.'
+			}, 'Submission successful.', 'Please upload your avatar.', 'Please enter your name.',
 				'Only JPG/PNG format images can be uploaded!', 'The image size cannot exceed 2MB!',
 				'Avatar upload failed. Please try again later!'
 			]
@@ -45,7 +45,7 @@ export default {
 		buttons: ['Submit'],
 		txts: ['Voting results', 'Current selection', 'Points per order'],
 		gift: ['Rose', 'Lily', 'Fireworks', 'Balloon'],
-		message: ['Please select 1 gifts.', 'Please fill in the points.','Insufficient balance'],
+		message: ['Please select 1 gifts.', 'Please fill in the points.', 'Insufficient balance'],
 		dialog: {
 			buttons: ['Clear the order', 'Confirm submission']
 		},
@@ -69,9 +69,9 @@ export default {
 		xw: 'Bust',
 		job: 'Occupation',
 		city: 'City',
-		button:'reserve',
-		tabs:["Male","Female"],
-		party:['Pool Party', 'Yacht Party', 'Villa Party', 'Private Party']
+		button: 'Pair Up',
+		tabs: ["Male", "Female"],
+		party: ['Pool Party', 'Yacht Party', 'Villa Party', 'Travel Customization']
 	},
 
 
@@ -81,6 +81,9 @@ export default {
 	},
 	message: {
 		title: "The membership has not been activated. ",
-		msg: 'Please contact the customer service for activation.'
+		msg: 'Please contact the customer service for activation.',
+		"title2": "Prompt",
+		"msg2": "Request has been sent. Waiting for the other party to agree",
+		"msg3": "You already have a pair"
 	}
 }
